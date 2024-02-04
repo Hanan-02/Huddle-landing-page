@@ -1,0 +1,108 @@
+
+@media screen and (min-width: 375px) {
+    .hide-on-desktop {
+      display: none;
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.intro{
+    background-image: url("file:///C:/Users/Yousif/AppData/Local/Temp/Rar$DIa13088.31944/bg-hero-desktop.svg");
+    background-color: hsl(193, 100%, 96%);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.intro #button1{
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    border: none;
+    position:absolute;
+    top: 10px;
+    right:0;
+    padding: 7px 20px;
+}
+.intro h1{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 15%;
+    text-align: center;
+
+}
+.intro p{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+.intro #button2{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    border-radius: 16px;
+    border: none;
+    margin-left: 35%;
+    margin-top: 10px;
+    padding: 10px 20px;
+    
+}
+#image{
+    max-width: 75%;
+    margin: 60px;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: max-content;
+    border-radius: 16px;
+}
+.card img{
+    width: 250px;
+    height: 200px;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+.card h4{
+    margin-top: 20%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.card p{
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 20%;
+}
+.outro{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    height: max-content;
+    border-radius: 16px;
+}
+.outro h4{
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.outro button{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+    border-radius: 16px;
+    border: none;
+    margin-left: 7%;
+    padding: 10px 20px;
+    
+}
+.contact{
+    background-color: hsl(192, 100%, 9%);
+}
